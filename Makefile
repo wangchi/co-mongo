@@ -2,13 +2,13 @@
 test:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
 		--require should \
-		--harmony-generators \
+		# --harmony-generators \
 		--bail
 
 testg:
 	@NODE_ENV=test ./node_modules/.bin/mocha \
 		--require should \
-		--harmony-generators \
+		# --harmony-generators \
 		--bail \
 		--grep $(grep)
 
