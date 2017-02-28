@@ -1,4 +1,6 @@
-# co-mongo
+# co-mongo-pro
+
+> A fork from [co-mongo](https://github.com/thomseddon/co-mongo), support latest mongodb.
 
 A mongodb wrapper that plays nicely with [co](https://github.com/visionmedia/co).
 
@@ -9,13 +11,13 @@ This is project has two goals:
 ## Install
 
 ```
-npm install co-mongo
+npm install co-mongo-pro
 ```
 
 ## Example
 
 ```js
-var comongo = require('co-mongo');
+var comongo = require('co-mongo-pro');
 var co = require('co');
 
 co(function *() {
@@ -62,7 +64,7 @@ Beyond the standard mongo methods, co-mongo also provides the following convenie
 ### Example
 
 ```js
-var comongo = require('co-mongo');
+var comongo = require('co-mongo-pro');
 
 comongo.configure({
     host: '127.0.0.1',
